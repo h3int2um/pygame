@@ -14,10 +14,15 @@ Thời gian: Ngày 22 tháng 11 năm 2016
 			
 		![](https://raw.githubusercontent.com/h3int2um/pygame/master/pygame-tutorials/images/caidat-pygame-ubuntu.png)
 		
-	+ Kiểm tra cài đặt: gõ các lệnh sau, nếu không báo lỗi nghĩa là cài đặt thành công.
+	+ Kiểm tra cài đặt: gõ các lệnh sau, nếu không báo lỗi nghĩa là cài đặt thành công. 
+	Trong trường hợp này phiên bản cài đặt là `1.9.1`.
 	
 			$ python
 			
-			>>> import pygame		
+			>>> import pygame
+			
+			>>> pygame.__version__
+			
+			>>> '1.9.1release'
 		
 		![](https://raw.githubusercontent.com/h3int2um/pygame/master/pygame-tutorials/images/kiemtra-caidat-pygame.png)
